@@ -48,9 +48,9 @@ def findARestaurant(mealType,location):
 		print "Restaurant Address: %s" % restaurantInfo['address']
 		print "Image: %s \n" % restaurantInfo['image']
 		return restaurantInfo
-	else:
-		print "No Restaurants Found for %s" % location
-		return "No Restaurants Found"
+		# else:
+		# 	print "No Restaurants Found for %s" % location
+		# 	return "No Restaurants Found"
 
 if __name__ == '__main__':
 	findARestaurant("Pizza", "Tokyo, Japan")
